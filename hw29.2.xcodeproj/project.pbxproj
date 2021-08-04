@@ -14,6 +14,7 @@
 		A08B0BA026BAB1920023B919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08B0B9F26BAB1920023B919 /* Assets.xcassets */; };
 		A08B0BA326BAB1920023B919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08B0BA126BAB1920023B919 /* LaunchScreen.storyboard */; };
 		A08B0BAB26BADC9D0023B919 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08B0BAA26BADC9D0023B919 /* DataModel.swift */; };
+		A08B0BAD26BB13230023B919 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08B0BAC26BB13230023B919 /* Animation.swift */; };
 		B80B48CB2D24E9CB455A395B /* Pods_hw29_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6CA178AAC1D9AC91D4F3E /* Pods_hw29_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		A08B0BA226BAB1920023B919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A08B0BA426BAB1920023B919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A08B0BAA26BADC9D0023B919 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A08B0BAC26BB13230023B919 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				A08B0BA126BAB1920023B919 /* LaunchScreen.storyboard */,
 				A08B0BA426BAB1920023B919 /* Info.plist */,
 				A08B0BAA26BADC9D0023B919 /* DataModel.swift */,
+				A08B0BAC26BB13230023B919 /* Animation.swift */,
 			);
 			path = hw29.2;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				A08B0B9B26BAB1910023B919 /* ViewController.swift in Sources */,
 				A08B0BAB26BADC9D0023B919 /* DataModel.swift in Sources */,
 				A08B0B9726BAB1910023B919 /* AppDelegate.swift in Sources */,
+				A08B0BAD26BB13230023B919 /* Animation.swift in Sources */,
 				A08B0B9926BAB1910023B919 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
