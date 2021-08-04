@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A08B0B9E26BAB1910023B919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08B0B9C26BAB1910023B919 /* Main.storyboard */; };
 		A08B0BA026BAB1920023B919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08B0B9F26BAB1920023B919 /* Assets.xcassets */; };
 		A08B0BA326BAB1920023B919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08B0BA126BAB1920023B919 /* LaunchScreen.storyboard */; };
+		A08B0BAB26BADC9D0023B919 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08B0BAA26BADC9D0023B919 /* DataModel.swift */; };
 		B80B48CB2D24E9CB455A395B /* Pods_hw29_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6CA178AAC1D9AC91D4F3E /* Pods_hw29_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		A08B0B9F26BAB1920023B919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08B0BA226BAB1920023B919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A08B0BA426BAB1920023B919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08B0BAA26BADC9D0023B919 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				A08B0B9F26BAB1920023B919 /* Assets.xcassets */,
 				A08B0BA126BAB1920023B919 /* LaunchScreen.storyboard */,
 				A08B0BA426BAB1920023B919 /* Info.plist */,
+				A08B0BAA26BADC9D0023B919 /* DataModel.swift */,
 			);
 			path = hw29.2;
 			sourceTree = "<group>";
@@ -80,7 +83,6 @@
 				839340E1C4D021BFD2EE340D /* Pods-hw29.2.debug.xcconfig */,
 				95D42A861BE333D71CF01B0B /* Pods-hw29.2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A08B0B9B26BAB1910023B919 /* ViewController.swift in Sources */,
+				A08B0BAB26BADC9D0023B919 /* DataModel.swift in Sources */,
 				A08B0B9726BAB1910023B919 /* AppDelegate.swift in Sources */,
 				A08B0B9926BAB1910023B919 /* SceneDelegate.swift in Sources */,
 			);

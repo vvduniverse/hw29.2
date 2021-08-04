@@ -17,6 +17,8 @@ class ViewController: UIViewController {
 
     @IBAction func annimationTypeButton(_ sender: SpringButton) {
         
+   //     if caseIndex < AnimationCases.count {}
+            
         if caseIndex < Spring.AnimationPreset.allCases.count {
             animationInfoShow.animation = Spring.AnimationPreset.allCases[caseIndex].rawValue
             animationInfoShow.text = Spring.AnimationPreset.allCases[caseIndex].rawValue
@@ -31,7 +33,7 @@ class ViewController: UIViewController {
         } else { return }
 //            caseIndex = 0
 //            buttonIndex = 1
-// или так, тогда перебор продолжится
+// или так, тогда перебор продолжится по кругу
         
     }    
 }
