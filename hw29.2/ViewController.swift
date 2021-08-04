@@ -11,11 +11,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var animationInfoShow: SpringLabel!
     @IBOutlet weak var annimationTypeButtonOutlet: SpringButton!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        casesIteration()
-
-    }
     
     private var caseIndex = 0
     private var buttonIndex = 1
@@ -33,20 +28,11 @@ class ViewController: UIViewController {
         
         if buttonIndex < Spring.AnimationPreset.allCases.count - 1 {
             buttonIndex += 1
-        } else {
-            caseIndex = 0
-            buttonIndex = 1
-            // или return, тогда перебор закончится
-        }
-    }
-    
-    func casesIteration() {
-        for animationType in Spring.AnimationPreset.allCases {
-            print(animationType)
-            
-        }
-    }
-    
-    
+        } else { return }
+//            caseIndex = 0
+//            buttonIndex = 1
+// или так, тогда перебор продолжится
+        
+    }    
 }
 
